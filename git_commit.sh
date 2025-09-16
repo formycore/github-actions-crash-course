@@ -9,6 +9,8 @@ then
     commit="update"
 fi
 git commit -m "$commit"
+git pull origin main
+git fetch origin gh-pages
 git push origin main
 
 
