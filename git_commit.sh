@@ -2,6 +2,7 @@
 git add .
 commit = $1
 if [ -z "$commit" ]
+# demo
 # why -z ?
 # -z checks if the string is empty
 then
