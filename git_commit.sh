@@ -1,6 +1,6 @@
 #!/bin/bash
 git add .
-commit = $1
+commit=$1
 if [ -z "$commit" ]
 # demo
 # why -z ?
