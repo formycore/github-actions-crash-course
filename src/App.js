@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Github actions from alia</p>
+        <p>Github actions from alia bhat</p>
       </header>
     </div>
   );
