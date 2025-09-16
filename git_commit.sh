@@ -9,10 +9,11 @@ then
     commit="update"
 fi
 git commit -m "$commit"
-git pull origin main
-git fetch origin gh-pages
-git push origin main
+# Make sure we are up to date before pushing
+git pull origin main --rebase   
 
+# Push only to main (Actions workflow will deploy to gh-pages)
+git push origin main
 
 # 🔹 Why -z?
 
