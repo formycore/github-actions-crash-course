@@ -1,4 +1,4 @@
-#!/bin/bash # Specify the script should run with bash
+#!/bin/bash 
 commit=$1 # Assign the first argument to 'commit'
 git add . # Stage all changes
 if [ -z "$commit" ] # Check if 'commit' is empty
